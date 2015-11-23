@@ -9,7 +9,7 @@ RUN pip install --no-cache-dir \
 		PyYaml \
 		httplib2 \
 		virtualenv \ 
-		MechanicalSoup
+		mechanize
 
 # prepare the container
 WORKDIR /home
