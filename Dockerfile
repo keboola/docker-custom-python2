@@ -9,7 +9,10 @@ RUN pip install --no-cache-dir \
 		PyYaml \
 		httplib2 \
 		virtualenv \ 
-		mechanize
+		mechanize \
+		cookielib \
+		BeautifulSoup \
+		html2text
 
 # prepare the container
 WORKDIR /home
