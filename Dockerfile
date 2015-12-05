@@ -10,7 +10,6 @@ RUN pip install --no-cache-dir \
 		httplib2 \
 		virtualenv \ 
 		mechanize \
-		cookielib \
 		BeautifulSoup \
 		html2text
 
