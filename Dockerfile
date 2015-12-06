@@ -19,7 +19,8 @@ RUN pip install --no-cache-dir \
 		mechanize \
 		BeautifulSoup \
 		html2text \
-		lxml
+		lxml \
+		requests 
 
 # prepare the container
 WORKDIR /home
