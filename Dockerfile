@@ -22,6 +22,7 @@ RUN pip install --no-cache-dir \
 		lxml \
 		requests 
 
+RUN pip install git+git://github.com/keboola/python-docker-application.git
+
 # prepare the container
 WORKDIR /home
-
