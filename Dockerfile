@@ -1,8 +1,6 @@
 FROM quay.io/keboola/base-python2
 MAINTAINER Ondrej Popelka <ondrej.popelka@keboola.com>
 
-ENV DOCKER_CUSTOM_VERSION 0.0.2
-
 RUN yum -y update && \
 	yum -y install \
 		libxml2-devel \
@@ -22,7 +20,7 @@ RUN pip install --no-cache-dir \
 		lxml \
 		requests 
 
-RUN pip install git+git://github.com/keboola/python-docker-application.git
+RUN pip install --upgrade git+git://github.com/keboola/python-docker-application.git
 
 # prepare the container
 WORKDIR /home
