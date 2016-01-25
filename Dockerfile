@@ -18,7 +18,8 @@ RUN pip install --no-cache-dir \
 		BeautifulSoup \
 		html2text \
 		lxml \
-		requests 
+		requests \
+		pymongo
 
 RUN pip install --upgrade git+git://github.com/keboola/python-docker-application.git
 
