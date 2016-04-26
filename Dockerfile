@@ -1,4 +1,4 @@
-FROM quay.io/keboola/base-python2
+FROM quay.io/keboola/base-python2:latest
 MAINTAINER Ondrej Popelka <ondrej.popelka@keboola.com>
 
 RUN yum -y update && \
