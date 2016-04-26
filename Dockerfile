@@ -21,7 +21,7 @@ RUN pip install --no-cache-dir \
 		requests \
 		pymongo
 
-RUN pip install --upgrade --no-cache-dir git+git://github.com/keboola/python-docker-application.git@1.0.1
+RUN pip install --upgrade --no-cache-dir git+git://github.com/keboola/python-docker-application.git@1.1.0
 
 # prepare the container
 WORKDIR /home
