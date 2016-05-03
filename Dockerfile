@@ -1,8 +1,7 @@
 FROM quay.io/keboola/base-python2
 MAINTAINER Ondrej Popelka <ondrej.popelka@keboola.com>
 
-RUN yum -y update && \
-	yum -y install \
+RUN yum -y install \
 		libxml2-devel \
 		libxslt-devel \
 		&& \
