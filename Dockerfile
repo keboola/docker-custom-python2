@@ -20,7 +20,9 @@ RUN pip install --no-cache-dir \
 		html2text \
 		lxml \
 		requests \
-		pymongo
+		pymongo \
+		pandas \
+		numpy
 
 RUN pip install --upgrade --no-cache-dir git+git://github.com/keboola/python-docker-application.git@1.2.0
 
